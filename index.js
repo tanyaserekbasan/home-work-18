@@ -8,7 +8,7 @@ const drink = Number(
 );
 switch (drink) {
   case 1:
-    console.log("Coffe");
+    console.log("Coffee");
     break;
   case 2:
     console.log("Tea");
@@ -68,9 +68,9 @@ for (let i = 0; i < word.length; i++) {
 console.log(`${count} letters "a" are found in the word "${word}"`);
 
 // 7. Функція для розрахунку ціни
-function calculatePrice(price, quantity){
-    const total = price * quantity;
-    console.log(total);
+function calculatePrice(price, quantity) {
+  const total = price * quantity;
+  console.log(total);
 }
 
 calculatePrice(250, 3);
